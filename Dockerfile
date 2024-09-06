@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:17.0-slim
 COPY target/*.jar app-devops.jar
 EXPOSE 80
 LABEL authors="gdelumeau"
